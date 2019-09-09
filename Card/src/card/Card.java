@@ -22,9 +22,7 @@ public class Card {
 	}
 	public static void cardAt(int n){
 		String[] letterCard = {"C","D","H","S"};
-		String[] numberCard = {"2","3","4","5",
-							   "6","7","8","9",
-							   "0","J","Q","K","A"};
+		String[] numberCard = {"2","3","4","5","6","7","8","9","0","J","Q","K","A"};
 		for (int i = 0; i < numberCard.length ; i++) {
 			for (int j = 0; j < letterCard.length; j++) {
 				 if(j == Math.floor(n/13)){
